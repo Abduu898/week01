@@ -3,7 +3,7 @@ found=False
 while not found:
     ok=True
     d = 1
-    while d<=20000:
+    while d<=20:
         if i%d != 0:
             ok=False
             break

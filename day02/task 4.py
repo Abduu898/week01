@@ -8,3 +8,13 @@ for i in range(1000000):
 
 pi=4*total
 print(round(pi, 6))
+
+
+def pi_calculate(n):
+    if n == 0:
+        return 0
+    odd = 2 * n - 1
+    return odd * odd / (6 + pi_calculate(n - 1))
+
+pi = 3 + pi_calculate(1000)
+print(round(pi, 6))
