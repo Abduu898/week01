@@ -1,5 +1,4 @@
 ####### Task 1.2
-import string
 
 
 print("------- Task 1.2 ------")
